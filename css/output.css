@@ -204,6 +204,33 @@
   .top-16 {
     top: calc(var(--spacing) * 16);
   }
+  .top-\[-20\%\] {
+    top: -20%;
+  }
+  .top-\[-40\%\] {
+    top: -40%;
+  }
+  .top-\[-50\%\] {
+    top: -50%;
+  }
+  .top-\[-60\%\] {
+    top: -60%;
+  }
+  .top-\[-80\%\] {
+    top: -80%;
+  }
+  .top-\[20\%\] {
+    top: 20%;
+  }
+  .top-\[40bh\] {
+    top: 40bh;
+  }
+  .top-\[40vh\] {
+    top: 40vh;
+  }
+  .top-\[50\%\] {
+    top: 50%;
+  }
   .top-\[75\%\] {
     top: 75%;
   }
@@ -219,11 +246,20 @@
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
   }
+  .bottom-\[-20\%\] {
+    bottom: -20%;
+  }
   .bottom-\[-20px\] {
     bottom: -20px;
   }
   .bottom-\[1px\] {
     bottom: 1px;
+  }
+  .bottom-\[20\%\] {
+    bottom: 20%;
+  }
+  .bottom-\[30\%\] {
+    bottom: 30%;
   }
   .left-\[-2px\] {
     left: -2px;
@@ -395,6 +431,9 @@
   }
   .h-auto {
     height: auto;
+  }
+  .h-full {
+    height: 100%;
   }
   .w-1 {
     width: calc(var(--spacing) * 1);
